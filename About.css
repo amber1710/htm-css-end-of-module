@@ -1,0 +1,15 @@
+body{
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(139, 56, 99);
+    font-family: "Lucinda Console",'Courier New', Courier, monospace;
+    border-style: groove;
+
+}
+
+h1{
+    color:rgb(189, 22, 204);
+}
+
