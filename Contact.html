@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="Contact.css" rel="stylesheet"  type="text/css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <ul class="main-nav">
+            
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li class="active"><a href="About.html">ABOUT </a></li>
+                <li class="active"><a href="Details.html">DETAILS</a></li>
+                <li class="active"><a href="Products.html">PRODUCTS</a></li>
+                
+            
+            
+            </ul>
+        </div>
+    </header>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+        <label>Name: <input type="text" name="name" /> </label>
+        </p>
+        
+        <p>
+        <label>Surname: <input type="text" name="surname"/></label>
+        </p>
+        <p>
+            <label>Email:</p>  <input type="email" name="email"/></label>
+        </p>
+        <p>
+            <label>Purchase: <select name="purchase[]" multiple>
+                <option value="store">At Store</option>
+                <option value="online">Buy Online</option>
+            </select></label>
+        </p>
+        <p>
+            <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        
+        <p>
+            <a href="thank you.html" button type="button">Send</button>
+        </p>
+
+        
+</body>
+</html>

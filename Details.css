@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: lightgray;
+}
+
+
+header {
+  background-color:pink;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: lightcoral ;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:pink;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  background-color: palevioletred;
+  width: 70%;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:palevioletred;
+  padding: 10px;
+  text-align: center;
+  color:black;
+}
+
+.main-nav{
+  float: right ; 
+  list-style: none ;
+  margin-top: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+
+}
+
+.main-nav li a {
+
+  color:black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+}
+
+.main-nav li.active a{
+
+  border: 1px solid black;
+
+
+}
+
+.main-nav li a:hover{
+
+  border: 1px solid black
+}
+
+
